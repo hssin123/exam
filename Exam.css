@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .div1{
+    height:40px;
+    width:1533px;
+    border:solid black 2px;
+    background-color:#c27ba0 ;
+    color:#fefefe ;
+    
+ }
+.h3{
+    text-align: center;
+    margin-top:10px ;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container, .nav-links, .Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Nav {
+    height:68px;
+    margin-right:119px;
+    margin-left:119px ;
+    background-color:#cccccc;
+    color:#ededed;
+    margin-bottom: 20px;
+  }
+  .nav-title{
+    color:#000000;
+    margin-left:356px;
+    
+  }
+  .nav-links {
+    width:44%;
+    list-style-type: none;
+    align-items: center;
+    margin-right:41% ;
+  }
+  .Sch{
+    border:solid black 2px;
+    height:27px;
+    width:558px;
+    margin-left:15px ;
+    margin-top:3px ;
+  }
+  .flex-container1 {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .flex-container1, .nav-links1, .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:15px ;
+  }
+  .nav2 {
+    height:46px;
+    background-color:#dddddd;
+    color:#ededed;
+    margin-bottom: 20px;
+    margin-left:5px ;
+    margin-right:5px ;
+    margin-top:5px ;
+  }
+  .nav-links1 {
+    width:54%;
+    list-style-type: none;
+    align-items: center;
+    
+  }
+  .nav-links1 a {
+    color:black;
+    text-decoration: none;
+    
+  }
+  .nav-links1 a.active1 {
+    color:black;
+    font-weight: bold;
+    border-bottom: #c27ba0 solid 5px;
+    
+  }
+  .box1{
+    height:100px ;
+    width:809px ;
+    margin-left:359px ;
+    background-color:#c27ba0;
+    color:#fffeff ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img1{
+    height:37px ;
+    width:62px ;
+    margin-top:4px ;
+    margin-left:1px ;
+  }
+.spn1{
+    display: flex;
+    align-items: center;
+    margin-left:24px ;
+}
+.paragraphe{
+  display: flex;
+  justify-content: space-around;
+}
+.p2{
+  margin-left:150px ;
+}
+.p3{
+  display: flex;
+  margin-right:159px ;
+}
+.p1{
+  margin-right:10px ;
+}
+.img2{
+  height:210px ;
+  width:210px ;
+}
+.grandbox{
+  display: flex;
+  justify-content: center;
+  margin-top:30px ;
+}
+.petitbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BUY{
+  margin-top:10px ;
+  background-color:#c27ba0 ;
+  color:#ffffff;
+  height:40px ;
+  width:82px ;
+  border-radius:9% ;
+  font-size:20px ;
+  border:whitesmoke ;
+}
