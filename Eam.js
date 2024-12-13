@@ -1,6 +1,5 @@
 const likeButton0 = document.getElementById('likeButton0');
 var likeCountDisplay0 = document.getElementById('likeCount');
-
 var likeCount = parseInt(likeCountDisplay0.textContent);
 
 likeButton0.addEventListener('click', () => {
@@ -11,7 +10,6 @@ likeButton0.addEventListener('click', () => {
 
 const likeButton1 = document.getElementById('likeButton1');
 var likeCountDisplay1 = document.getElementById('likeCount');
-
 var likeCount = parseInt(likeCountDisplay1.textContent);
 
 likeButton1.addEventListener('click', () => {
@@ -22,7 +20,6 @@ likeButton1.addEventListener('click', () => {
 
 const likeButton2 = document.getElementById('likeButton2');
 var likeCountDisplay2 = document.getElementById('likeCount');
-
 var likeCount = parseInt(likeCountDisplay2.textContent);
 
 likeButton2.addEventListener('click', () => {
@@ -33,7 +30,6 @@ likeButton2.addEventListener('click', () => {
 
 const likeButton3 = document.getElementById('likeButton3');
 var likeCountDisplay3 = document.getElementById('likeCount');
-
 var likeCount = parseInt(likeCountDisplay3.textContent);
 
 likeButton3.addEventListener('click', () => {
@@ -42,14 +38,9 @@ likeButton3.addEventListener('click', () => {
 });
 
 
-
 var select= document.getElementById('select')
 var result= document.getElementById('result')
 
-
 function changedText() {
-    
     result.innerText = select.value;
-    
-
 }
